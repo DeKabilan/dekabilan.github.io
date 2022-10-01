@@ -1,5 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
 section {
+    min-width: 100vh;
     height: 500px;
-    color: yellow;
-    border-color: black;
+    background-color: white;
+    border: solid black 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.resume{
+    margin: 20px;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    height: 500px;
+    background-color: black;
+}
+
+ul{
+    margin: 20px;
+    display: flex;
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    text-decoration: none;
+    width: 200px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+p{
+    margin: 0px;
+}
+
+.hero-text{
+    margin: 40px;
+    padding-top: 13vh;
+}
+
+.button{
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: coral;
+}
+
+.button:hover{
+    background-color: #f1683a;
+}
+.button:active{
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+.socials{
+    padding-right: 40px;
+    padding-top: 20vh;
+}
+
+.icon{
+    margin: 10px;
 }
