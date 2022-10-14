@@ -152,7 +152,7 @@ p{
 
 footer{
     min-width: 100vh;
-    height: 260px;
+    height: 28vh;
     background-color: black;
 
     background-image: radial-gradient(circle at top right, rgba(121, 68, 154, 0.13),       transparent),
@@ -173,8 +173,5 @@ footer{
 .icont>a{
     margin-right:  5vh; ;
 }
-
-
-
 
 
